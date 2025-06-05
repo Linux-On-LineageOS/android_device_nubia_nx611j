@@ -162,3 +162,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
 include vendor/nubia/nx611j/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
