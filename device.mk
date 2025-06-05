@@ -465,3 +465,4 @@ PRODUCT_PACKAGES += \
 # Inherit the proprietary files
 $(call inherit-product, vendor/nubia/nx611j/nx611j-vendor.mk)
 
+$(call inherit-product, vendor/lindroid/lindroid.mk)
